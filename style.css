@@ -1,0 +1,212 @@
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #080808; /* Adjusted font color */
+   
+        overflow-x: auto; /* Enable horizontal scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+
+.product-item,
+.cart-item {
+    width: 100%; /* Make items take full width initially */
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background-color: rgba(218, 160, 218, 0.8); /* Adjusted product item background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+}
+
+.product-name,
+.cart-item span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.product-cost {
+    margin-left: auto; /* Push the add button to the right */
+}
+
+.add-button {
+    background-color: #5b296e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #20b8d3;
+}
+
+.product-form {
+    width: 45%; /* Limit form width to half of the container */
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form button {
+    width: calc(100% - 12px); /* Adjust width to account for padding and border */
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #911ea0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.product-form button {
+    background-color: #6e1285;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-form button:hover {
+    background-color: #20b8d3;
+}
+.remove-button {
+    background-color: #ee1e32; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #b00718; /* Darker red color on hover */
+}
+
+
+  .cart-column {
+    float: right;
+    width: 50%;
+    position: fixed;
+    top: 70px; /* Adjust this value as needed */
+    right: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.cart-item div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.remove-button {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-total {
+  margin-top: 20px;
+  text-align: left;
+  background-color: #5b296e;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px ; 
+}
+
+.cart-column {
+    float: right;
+    width: 50%;
+  }
+  
+  .cart-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .cart-item div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item div span {
+    margin-bottom: 5px;
+  }
+  
+  .remove-button {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}

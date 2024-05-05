@@ -1,0 +1,39 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Earring",
+        "unitCost": 600.99
+      },
+      {
+        "id": 2,
+        "name": "Pen",
+        "unitCost": 20.99
+      },
+      {
+        "id": 3,
+        "name": "Bag",
+        "unitCost": 100.99
+      },
+      {
+        "id": 4,
+        "name": "Earphone",
+        "unitCost": 1999.99
+      },
+      {
+        "name": "Bottle",
+        "unitCost": 500,
+        "id": 5
+      },
+      {
+        "name": "Umbrella",
+        "unitCost": 200,
+        "id": 6
+      },
+      {
+        "name": "Tops",
+        "unitCost": 50,
+        "id": 7
+      }
+    ]
+  }
